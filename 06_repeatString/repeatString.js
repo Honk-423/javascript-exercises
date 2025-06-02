@@ -28,5 +28,7 @@ repeatString("goodbye", -1);
 
 repeatString("sayonara", Math.random());
 
+repeatString("", 10);
+
 // Do not edit below this line
 module.exports = repeatString;
