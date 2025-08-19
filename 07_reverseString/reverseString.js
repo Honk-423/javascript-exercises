@@ -8,8 +8,9 @@ return string
 // REVERSE string
 .join("");
 // JOIN string
-
 };
+
+reverseString("hello there");
 
 // "Strings in JavaScript cannot be reversed directly so you're going 
 // to have to split it into something else first.." An array?
