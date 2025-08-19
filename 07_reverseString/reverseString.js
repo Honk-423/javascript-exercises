@@ -14,6 +14,8 @@ reverseString("hello there");
 
 reverseString("123! abc! Hello, Odinite.")
 
+reverseString("");
+
 // "Strings in JavaScript cannot be reversed directly so you're going 
 // to have to split it into something else first.." An array?
 // Try splitting the string into an array then 
