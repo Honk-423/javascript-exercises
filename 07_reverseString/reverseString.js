@@ -1,13 +1,13 @@
 const reverseString = function(string) {
 
 return string
-.split("")
-.reverse()
-.join("");
-// SPLIT string
-// REVERSE string
-// JOIN string
 // RETURN string
+.split("")
+// SPLIT string
+.reverse()
+// REVERSE string
+.join("");
+// JOIN string
 
 };
 
