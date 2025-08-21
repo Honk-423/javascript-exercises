@@ -2,6 +2,9 @@ const removeFromArray = function(arr, ...elems) {
     // ADD parameter arr and rest parameter elems to function
     for (let elem of elems) {
         // INIT for... of loop
+        if (!arr[elem]) {
+            continue;
+        }
         arr.splice(arr.indexOf(elem), 1);
         // SPLICE arr from elem with delete count of one 
         if (arr[elem]) {
