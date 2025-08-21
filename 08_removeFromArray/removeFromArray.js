@@ -4,7 +4,8 @@ const removeFromArray = function(arr, ...elems) {
         // INIT for... of loop
         if (!arr[elem]) {
             continue;
-        }
+        } 
+        // IF not arr elem, ignore it and CONTINUE
         arr.splice(arr.indexOf(elem), 1);
         // SPLICE arr from elem with delete count of one 
         if (arr[elem]) {
