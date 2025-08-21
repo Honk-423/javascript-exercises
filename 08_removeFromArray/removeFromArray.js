@@ -1,7 +1,8 @@
 const removeFromArray = function(arr, ...elems) {
-    // ADD params arr and elem to function
+    // ADD parameter arr and rest parameter elems to function
     for (let elem of elems) {
-        arr.splice(arr.indexOf(elem), 1); // arr.indexOf(elem) works for a single value but that's it
+        // INIT for... of loop
+        arr.splice(arr.indexOf(elem), 1);
         // SPLICE arr from elem with delete count of one 
     }
     console.log(arr);
