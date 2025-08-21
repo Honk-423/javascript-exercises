@@ -7,13 +7,15 @@ const removeFromArray = function(arr, ...elems) {
         if (arr[elem]) {
             arr.splice(arr.indexOf(elem), 1);
         }
+        // IF there's still an elem inside of arr that matches elem,
+        // remove it
     }
     console.log(arr);
     return arr;
     // RETURN arr
 };
 
-removeFromArray([1, 2, 2, 3, 4], 2);
+removeFromArray([1, 2, 3, 4], 7, "tacos");
 
 
 // Do not edit below this line
