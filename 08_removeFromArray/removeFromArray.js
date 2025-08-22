@@ -2,24 +2,18 @@ const removeFromArray = function(arr, ...elems) {
     // ADD parameter arr and rest parameter elems to function
     for (let elem of elems) {
         // INIT for... of loop
-        if (!arr[elem]) {
-            continue;
-        } 
-        // IF not arr elem, ignore it and CONTINUE
-        arr.splice(arr.indexOf(elem), 1);
-        // SPLICE arr from elem with delete count of one 
-        if (arr[elem]) {
-            arr.splice(arr.indexOf(elem), 1);
+        for (let i = 0; i < arr.length; i++) {
+            // if (arr.indexOf(elem) > -1) {
+            //     arr.splice(arr.indexOf(elem), 1);
+            // }
         }
-        // IF there's still an elem inside of arr that matches elem,
-        // remove it
     }
     console.log(arr);
     return arr;
     // RETURN arr
 };
 
-removeFromArray([1, 2, 3, 4], 7, "tacos");
+removeFromArray([1, 2, 3, 4], 7, 2);
 
 
 // Do not edit below this line
