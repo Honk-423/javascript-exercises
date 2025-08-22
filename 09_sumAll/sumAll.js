@@ -1,4 +1,16 @@
 const sumAll = function() {
+// INIT parameter numA and numB
+// INIT arr and make it an empty array
+// IF numA is greater than numB
+    // INIT for loop with numA as the value and make it continue to 
+    // loop until i equals numB
+    // PUSH i into arr
+// ELSE 
+    // INIT for loop with numB as the value and make it continue to 
+    // loop until i equals numA
+    // PUSH i into arr
+// INIT sum with the value arr.reduce and the inital value set to 0
+// RETURN sum
 };
 
 // There will be two numbers as parameters. I'll have to loop from the
