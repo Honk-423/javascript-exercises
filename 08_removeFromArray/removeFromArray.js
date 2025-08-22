@@ -3,9 +3,9 @@ const removeFromArray = function(arr, ...elems) {
     for (let elem of elems) {
         // INIT for... of loop
         for (let i = 0; i < arr.length; i++) {
-            // if (arr.indexOf(elem) > -1) {
-            //     arr.splice(arr.indexOf(elem), 1);
-            // }
+            if (arr.indexOf(elem) > -1) {
+                arr.splice(arr.indexOf(elem), 1);
+            }
         }
     }
     console.log(arr);
