@@ -11,6 +11,8 @@ if (numA > numB) {
         // loop until i equals numA
         // PUSH i into arr
     }
+} else if (numA < 0 || numB < 0) {
+    return "ERROR";
 } else {
     // ELSE 
     for (let i = numA; i <= numB; i++) {
