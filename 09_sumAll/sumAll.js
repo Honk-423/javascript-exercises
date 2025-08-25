@@ -13,6 +13,8 @@ if (numA > numB) {
     }
 } else if (numA < 0 || numB < 0) {
     return "ERROR";
+} else if (Number.isInteger(numA) == false || Number.isInteger(numB) == false) {
+    return "ERROR";
 } else {
     // ELSE 
     for (let i = numA; i <= numB; i++) {
