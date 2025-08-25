@@ -5,18 +5,18 @@ let arr = [];
 
 if (numA > numB) {
     // IF numA is greater than numB
-    for (let i = numB; i <= numA; i++) { // Reversed numA and numB here too
+    for (let i = numB; i <= numA; i++) {
         arr.push(i);
-        // INIT for loop with numA as the value and make it continue to 
-        // loop until i equals numB
+        // INIT for loop with numB as the value and make it continue to 
+        // loop until i equals numA
         // PUSH i into arr
     }
 } else {
     // ELSE 
-    for (let i = numA; i <= numB; i++) { // Reversed numA and numB's roles and made it run as long as i <= numB
+    for (let i = numA; i <= numB; i++) {
         arr.push(i);
-        // INIT for loop with numB as the value and make it continue to 
-        // loop until i equals numA
+        // INIT for loop with numA as the value and make it continue to 
+        // loop until i equals numB
         // PUSH i into arr
     }
 }
