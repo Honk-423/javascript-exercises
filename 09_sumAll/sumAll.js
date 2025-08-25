@@ -15,6 +15,8 @@ if (numA > numB) {
     return "ERROR";
 } else if (Number.isInteger(numA) == false || Number.isInteger(numB) == false) {
     return "ERROR";
+} else if (!typeof numA == Number || !typeof numB == Number) {
+    return "ERROR";
 } else {
     // ELSE 
     for (let i = numA; i <= numB; i++) {
