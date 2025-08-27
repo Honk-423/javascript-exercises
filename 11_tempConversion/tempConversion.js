@@ -10,7 +10,7 @@ const convertToFahrenheit = function(celcius) {
   // INIT param celsius
   const fahrenheit = (celcius * 1.8) + 32;
   // INIT const fahrenheit with the value (celcius * 1.8) + 32
-  return fahrenheit;
+  return +fahrenheit.toFixed(1);
   // RETURN and ROUND fahrenheit to the tenths' place
 };
 
