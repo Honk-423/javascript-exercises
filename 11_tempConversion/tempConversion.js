@@ -3,7 +3,7 @@ const convertToCelsius = function(fahrenheit) {
   const celcius = (fahrenheit - 32) / 1.8;
   // INIT const celsius with the value (fahrenheit - 32) / (1.8)
   // ROUND celsius
-  return celcius;
+  return +celcius.toFixed(1);
   // RETURN celsius
 };
 
