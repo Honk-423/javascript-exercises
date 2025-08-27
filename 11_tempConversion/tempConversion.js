@@ -1,7 +1,9 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(fahrenheit) {
   // INIT param fahrenheit
+  const celcius = (fahrenheit - 32) / 1.8;
   // INIT const celsius with the value (fahrenheit - 32) / (1.8)
   // ROUND celsius
+  return celcius;
   // RETURN celsius
 };
 
