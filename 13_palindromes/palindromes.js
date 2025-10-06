@@ -10,7 +10,9 @@ const palindromes = function (str) {
 
     if (reversedArr === arr) {
         return true;
-    }
+    } else {
+        return false;
+    };
 };
 
 /* 
