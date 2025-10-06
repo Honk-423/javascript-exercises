@@ -4,6 +4,8 @@ const palindromes = function (str) {
         .replace(/[.,?!@#$%^&*()/\-_=+<>'"`:;{|}]/g, '')
         .toLowerCase();
     };
+
+    let arr = simplifyStr().split(""); 
 };
 
 /* 
