@@ -9,6 +9,12 @@ const palindromes = function (str) {
 
     str = arr.join("");
     let reversedStr = arr.reverse().join("");
+
+    if (str === reversedStr) {
+        return true;
+    } else {
+        return false;
+    };
 };
 
 /* 
