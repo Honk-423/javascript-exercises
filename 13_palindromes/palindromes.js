@@ -6,6 +6,7 @@ const palindromes = function (str) {
     };
 
     let arr = simplifyStr().split(""); 
+    let reversedArr = arr.reverse();
 };
 
 /* 
