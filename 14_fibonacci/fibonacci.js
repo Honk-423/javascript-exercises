@@ -17,7 +17,13 @@ const fibonacci = function(indexNum) {
         arr.push(sum);
     };
 
-    return sum;
+    if (indexNum == 1) {
+        return arr.at(0);
+    } else if (indexNum == 2) {
+        return arr.at(1);
+    } else {
+        return sum;
+    };
 };
 
 // Do not edit below this line
