@@ -14,6 +14,7 @@ const fibonacci = function(indexNum) {
         next = arr[i + 1];
         sum = curr + next;
         
+        arr.push(sum);
     };
 
     console.log(arr);
