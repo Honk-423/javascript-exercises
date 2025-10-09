@@ -17,7 +17,7 @@ const fibonacci = function(indexNum) {
         arr.push(sum);
     };
 
-    console.log(arr);
+    return sum;
 };
 
 // Do not edit below this line
