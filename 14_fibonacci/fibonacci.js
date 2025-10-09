@@ -7,10 +7,13 @@ const fibonacci = function(indexNum) {
         
     let curr;
     let next;
+    let sum;
 
     for (let i = 0; arr.length < indexNum; i++) {
         curr = arr[i];
         next = arr[i + 1];
+        sum = curr + next;
+        
     };
 
     console.log(arr);
