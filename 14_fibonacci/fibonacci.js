@@ -10,7 +10,7 @@ const fibonacci = function(indexNum) {
 
     for (let i = 0; arr.length < indexNum; i++) {
         curr = arr[i];
-        next = arr[i] + 1;
+        next = arr[i + 1];
     };
 
     console.log(arr);
