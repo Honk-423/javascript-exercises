@@ -17,7 +17,9 @@ const fibonacci = function(indexNum) {
         arr.push(sum);
     };
 
-    if (indexNum == 0) {
+    if (indexNum < 0) {
+        return "OOPS";
+    } else if (indexNum == 0) {
         return 0;
     } else if (indexNum == 1) {
         return arr.at(0);
