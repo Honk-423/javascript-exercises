@@ -1,6 +1,10 @@
 const fibonacci = function(indexNum) {
     let arr = [];
 
+    if (arr.length == 0) {
+        arr.push(1, 1);
+    };
+        
     let curr;
     let next;
 
