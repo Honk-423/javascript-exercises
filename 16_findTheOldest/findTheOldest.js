@@ -4,6 +4,8 @@ const findTheOldest = function(arrOfObjs) {
 
     const sortedAges = ages.sort((a, b) => a - b);
     
+    const oldest = sortedAges.findLast((item) => item);
+
     console.log()
 };
 
