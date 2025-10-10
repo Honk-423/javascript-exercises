@@ -9,7 +9,7 @@ const findTheOldest = function(arrOfObjs) {
             
             return currentYear - person.yearOfBirth;
         } else {
-            return person.yearOfDeath - person.yearOfBirth
+            return person.yearOfDeath - person.yearOfBirth;
         };
     });
     
