@@ -6,7 +6,11 @@ const findTheOldest = function(arrOfObjs) {
     
     const oldest = sortedAges.findLast((item) => item);
 
-    console.log()
+    for (let person of arrOfObjs) {
+
+    };
+
+    console.log(oldest)
 };
 
 
