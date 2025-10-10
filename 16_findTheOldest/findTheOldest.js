@@ -1,4 +1,6 @@
 const findTheOldest = function(arrOfObjs) {
+    let currentYear;
+    
     const ages = arrOfObjs.map((person) => {
         if (person.yearOfDeath === undefined) {
             
@@ -11,7 +13,6 @@ const findTheOldest = function(arrOfObjs) {
         };
     });
     
-    let currentYear;
 
     const sortedAges = ages.sort((a, b) => a - b);
     
