@@ -3,9 +3,10 @@ const findTheOldest = function(arrOfObjs) {
     - person.yearOfBirth);
 
     const sortedAges = ages.sort((a, b) => a - b);
+    
+    console.log()
 };
 
-console.log()
 
 /* 
 *   INITIALIZE parameter arrOfObjs so user knows what type of argument
