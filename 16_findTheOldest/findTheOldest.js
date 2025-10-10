@@ -22,8 +22,6 @@ const findTheOldest = function(arrOfObjs) {
             return person;
         };
     };
-
-    console.log(oldest)
 };
 
 
