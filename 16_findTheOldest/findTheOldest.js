@@ -7,6 +7,7 @@ const findTheOldest = function(arrOfObjs) {
             let currentDate = new Date;
             let currentYear = currentDate.getFullYear();
             
+            ages.push(currentYear - person.yearOfBirth);
         };
     };
 
