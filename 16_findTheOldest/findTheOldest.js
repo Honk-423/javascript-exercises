@@ -1,5 +1,6 @@
 const findTheOldest = function(arrOfObjs) {
-
+    const ages = arrOfObjs.map(person => person.yearOfDeath 
+    - person.yearOfBirth);
 };
 
 /* 
