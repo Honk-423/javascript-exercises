@@ -7,7 +7,9 @@ const findTheOldest = function(arrOfObjs) {
     const oldest = sortedAges.findLast((item) => item);
 
     for (let person of arrOfObjs) {
-
+        if (person.yearOfDeath - person.yearOfBirth === oldest) {
+            return person;
+        }
     };
 
     console.log(oldest)
