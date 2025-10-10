@@ -3,6 +3,8 @@ const findTheOldest = function(arrOfObjs) {
     - person.yearOfBirth);
 };
 
+console.log()
+
 /* 
 *   INITIALIZE parameter arrOfObjs so user knows what type of argument
 *   is expected.
