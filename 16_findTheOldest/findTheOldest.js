@@ -3,6 +3,11 @@ const findTheOldest = function(arrOfObjs) {
     - person.yearOfBirth);
 
     for (let person of arrOfObjs) {
+        if (person.yearOfDeath === undefined) {
+            let currentDate = new Date;
+            let currentYear = currentDate.getFullYear();
+            
+        };
     };
 
     const sortedAges = ages.sort((a, b) => a - b);
