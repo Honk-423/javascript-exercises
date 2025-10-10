@@ -9,7 +9,7 @@ const findTheOldest = function(arrOfObjs) {
     for (let person of arrOfObjs) {
         if (person.yearOfDeath - person.yearOfBirth === oldest) {
             return person;
-        }
+        };
     };
 
     console.log(oldest)
