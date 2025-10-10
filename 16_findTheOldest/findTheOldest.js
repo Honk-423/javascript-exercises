@@ -2,6 +2,9 @@ const findTheOldest = function(arrOfObjs) {
     const ages = arrOfObjs.map(person => person.yearOfDeath 
     - person.yearOfBirth);
 
+    for (let person of arrOfObjs) {
+    };
+
     const sortedAges = ages.sort((a, b) => a - b);
     
     const oldest = sortedAges.findLast((item) => item);
